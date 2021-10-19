@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.0;net35</TargetFrameworks>
+    <Authors>wx</Authors>
+    <Product>YetAnotherStringMatcher</Product>
+    <Company>none</Company>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>wx</Copyright>
+    <RepositoryUrl>https://github.com/xd-loler/YetAnotherStringMatcher</RepositoryUrl>
+    <Description>YetAnotherStringMatcher library tries to make string matching easier, more readable while being somewhat expressive.
+
+It tries to replace Regex to some extent, mostly when it comes to relatively basic cases.</Description>
+    <PackageProjectUrl>https://github.com/xd-loler/YetAnotherStringMatcher</PackageProjectUrl>
+    <PackageTags>string matching</PackageTags>
+    <AssemblyVersion>1.0.0.3</AssemblyVersion>
+    <FileVersion>1.0.0.3</FileVersion>
+    <Version>1.0.3</Version>
+  </PropertyGroup>
+
+</Project>
+
+
