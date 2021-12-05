@@ -139,6 +139,18 @@ var result = new Matcher("Apple Water_Banana Watermelon")
 Assert.True(result.Success);
 ```
 
+```csharp
+// Backtracking
+var result = new Matcher("Apple Watermelon Watermelon_Orange")
+				 .Match("Apple")
+				 .ThenAnything()
+				 .Then("Watermelon")
+				 .Then("_Orange")
+				 .Check();
+
+Assert.True(result.Success);
+```
+
 # Avaliable APIs:
 
 **Match / Then** - tries to match exact string
