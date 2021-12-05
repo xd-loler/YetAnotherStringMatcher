@@ -120,7 +120,7 @@ var check = new Matcher(str)
                 .Then("duplicate key value violates unique")
                 .ThenAnything()
                 .Then("Detail: Key ")
-                .ThenExtract().ExtractAs("output")
+                .ThenExtractAs("output")
                 .Then(" already exists.")
                 .Check();
 
@@ -205,7 +205,7 @@ Assert.False(matcher.Success);
 
 ___
 
-**ThenExtract().ExtractAs(...)** - next symbols will be extracted and returned as element of dictionary with under key provided by ExtractAs
+**ThenExtractAs(...)** - next symbols will be extracted and returned as element of dictionary with under key provided to ThenExtractAs
 ```csharp
 var str = @"RROR: duplicate key value violates unique...
             Detail: Key (some_column)=(b01a0e23-da71-3a08-9893-11b8b2dfb069) already exists.";
@@ -215,7 +215,7 @@ var check = new Matcher(str)
                 .Then("duplicate key value violates unique")
                 .ThenAnything()
                 .Then("Detail: Key ")
-                .ThenExtract().ExtractAs("output")
+                .ThenExtractAs("output")
                 .Then(" already exists.")
                 .Check();
 
@@ -398,10 +398,6 @@ var matcher = new Matcher("TEST_ABC")
 
 Assert.True(matcher.Success);
 ```
-
-___
-
-**ExtractAs** - read description of **ThenExtract()**
 
 ___
 
