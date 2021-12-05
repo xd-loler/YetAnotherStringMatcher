@@ -12,11 +12,11 @@ Tests: https://github.com/xd-loler/YetAnotherStringMatcher/blob/master/src/Tests
 
 ## How to install
 
-* .NET CLI: `dotnet add package YetAnotherStringMatcher --version 1.0.2`
+* .NET CLI: `dotnet add package YetAnotherStringMatcher --version 1.0.3`
 
-* Package Manager: `Install-Package YetAnotherStringMatcher -Version 1.0.2`
+* Package Manager: `Install-Package YetAnotherStringMatcher -Version 1.0.3`
 
-* Package Reference: `<PackageReference Include="YetAnotherStringMatcher" Version="1.0.2" />`
+* Package Reference: `<PackageReference Include="YetAnotherStringMatcher" Version="1.0.3" />`
 
 * Nuget.org URL: https://www.nuget.org/packages/YetAnotherStringMatcher/
 
